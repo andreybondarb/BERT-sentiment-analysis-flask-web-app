@@ -1,0 +1,17 @@
+<!doctype html>
+<title>BERT sentiment analysis</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="center-on-page">  
+{% set my_string = "static/img/" + "84-88.svg" %}
+<h1><img src="{{ my_string }}" class="svg" fill="white" height="100" vertical-align="middle" width="100"></h1>
+<h1> Text sentiment analysis </h1>
+
+<form class="form-inline" method="POST" action="{{ url_for('result') }}">
+	<textarea name=text rows=3 cols=50 placeholder="Insert Your Text" style = ' font-size: 10pt; font-weight: bold; height: 120px; width: 400px; border-radius: 6px; border: none; padding: 3px;'>{{ text }}</textarea>
+	<input type="submit" style="height: 0px; width: 0px; border: none; padding: 0px;" hidefocus="true" />
+	<h1><button type="submit" class="btn" style="height: 40px; width: 80px; border: none; padding: 0px;">Go</button></h1>
+
+
+
+
+<p style=" position: fixed; top:130%; left: 50%; bottom: 0; left: 0; width: 100%; text-align: center; color:#FFFFFF; font-size: 8pt; font-weight: 300; ">Andrew Bondar © 2020</p>

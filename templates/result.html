@@ -1,0 +1,14 @@
+<!doctype html>
+<title>BERT sentiment analysis</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="center-on-page">
+{% set my_string = "static/img/" + mood %}
+<h1><img src="{{ my_string }}" class="svg" fill="white" height="100" vertical-align="middle" width="100"></h1>
+<h1> Mood </h1>
+    <h1>{{ data }} %</h1>
+    <button onclick="window.location.href='/';" class="btn" >Try again</button>
+
+
+
+
+<p style=" position: fixed; top:155%; left: 50%; bottom: 0; left: 0; width: 100%; text-align: center; color:#FFFFFF; font-size: 8pt; font-weight: 300; ">Andrew Bondar © 2020</p>

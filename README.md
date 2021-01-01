@@ -13,6 +13,8 @@ pip install -r '/requirements.txt'
 This app was testen on python 3.7.6, 3.6, with libraries versions:
 
 transformers==3.0.2
+
 torch==1.6.0
+
 flask==1.1.1
 

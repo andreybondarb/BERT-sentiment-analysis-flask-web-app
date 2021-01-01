@@ -1,16 +1,16 @@
-В данном веб приложении используется нейро-сетевая модель BERT, предназначенная для задач NLP.
+Bert sentiment analysis flask web app.
 
-Инструкция для запуска:
+Instructions for start:
 
-1. Для работы классификатора необходимо установить дополнительные библиотеки - PyTorch (700Мб~) и transformers (если не установлены ранее). Установить их можно с помощью:
+1. For the classificator to work you need to install additional libraries - PyTorch (700Мб~) and transformers. This command in your CLI can be used:
 
-pip install -r '/bert_sentiment_analisys/requirements.txt'
+pip install -r '/requirements.txt'
 
-2. Запустить в вашей консоли файл 'main.py'
+2. Start in your CLI the file 'main.py'
 
-3. Перейти по ссылке http://0.0.0.0:4566/ для проверки работы классификатора.
+3. Follow the link http://0.0.0.0:4566/ and try.
 
-Приложение тестировалось на python 3.7.6, 3.6, с версиями библиотек:
+This app was testen on python 3.7.6, 3.6, with libraries versions:
 
 transformers==3.0.2
 torch==1.6.0

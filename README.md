@@ -1,4 +1,4 @@
-Bert sentiment analysis flask web app.
+BERT sentiment analysis flask web app.
 
 Instructions for start:
 
@@ -8,9 +8,9 @@ pip install -r '/requirements.txt'
 
 2. Start in your CLI the file 'main.py'
 
-3. Follow the link http://0.0.0.0:4566/ and try.
+3. Follow the link http://0.0.0.0:4566/ and try it.
 
-This app was testen on python 3.7.6, 3.6, with libraries versions:
+This app was tested on python 3.7.6, 3.6, with libraries versions:
 
 transformers==3.0.2
 

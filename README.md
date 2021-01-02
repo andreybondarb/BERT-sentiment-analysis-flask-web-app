@@ -1,14 +1,16 @@
 BERT sentiment analysis flask web app.
 
-Instructions for start:
+Instructions to start:
 
 1. For the classificator to work you need to install additional libraries - PyTorch (700Мб~) and transformers. This command in your CLI can be used:
 
 pip install -r '/requirements.txt'
 
-2. Start in your CLI the file 'main.py'
+2. Download model weights from https://yadi.sk/d/EmtQcZKfGxPMdw and put 'bert_model_Russian_01.pt' (680 MB) file into the folder where 'main.py' file locates.
 
-3. Follow the link http://0.0.0.0:4566/ and try it.
+3. In your CLI start the file 'main.py'
+
+4. Follow the link http://0.0.0.0:4566/ in your browser and try the app.
 
 This app was tested on python 3.7.6, 3.6, with libraries versions:
 

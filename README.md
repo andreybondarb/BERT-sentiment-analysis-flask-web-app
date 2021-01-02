@@ -1,4 +1,4 @@
-BERT sentiment analysis flask web app. The model was trained on Russian text from mobile phone reviewers sites.
+BERT sentiment analysis flask web app. The model was trained on Russian text scraped from mobile phone reviews site.
 
 Instructions to begin:
 

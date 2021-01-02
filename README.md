@@ -2,7 +2,7 @@ BERT sentiment analysis flask web app. The model was trained on Russian text fro
 
 Instructions to begin:
 
-1. For the classificator to work you need to install additional libraries - PyTorch (700Мб~) and transformers. This command in your CLI can be used:
+1. For the classificator to work you need to install additional libraries - PyTorch (700 MB~) and transformers. This command in your CLI can be used:
 
 pip install -r '/requirements.txt'
 

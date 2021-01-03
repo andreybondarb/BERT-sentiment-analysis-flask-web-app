@@ -1,14 +1,25 @@
-BERT sentiment analysis flask web app. The model was trained on Russian text scraped from mobile phone reviews site.
+BERT sentiment analysis flask web app. Model was trained on Russian language text scraped from mobile phone reviews site.
 
 Instructions to begin:
 
-1. For the classificator to work you need to install additional libraries - PyTorch (700 MB~) and transformers. This command in your CLI can be used:
+If you want to follow with docker use this instruction:
+
+1. Download docker image: https://hub.docker.com/r/andreybondarb/bert-sentiment
+
+2. run in your console: 
+sudo docker run --name bert_model -p 4566:4566 --rm andreybondarb/bert-sentiment
+
+3. Follow the link http://0.0.0.0:4566/ in your browser and try the app.
+
+If you want to start the app manually you will need to follow this instruction:
+
+1. If you dont have PyTorch (700 MB~) and transformers libraries you will need to install them - This command in your CLI can be used:
 
 pip install -r '/requirements.txt'
 
 2. Download model weights from https://yadi.sk/d/EmtQcZKfGxPMdw and put 'bert_model_Russian_01.pt' (680 MB) file into the folder where 'main.py' file locates.
 
-3. In your CLI start the 'main.py' file.
+3. In your CLI run the 'main.py' file.
 
 4. Follow the link http://0.0.0.0:4566/ in your browser and try the app.
 

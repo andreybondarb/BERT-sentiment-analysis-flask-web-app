@@ -1,8 +1,8 @@
-BERT sentiment analysis flask web app. Model was trained on Russian language text scraped from mobile phone reviews site.
+BERT sentiment analysis flask web app. This model was fine-tuned on Russian 'rubert-base-cased' model with Russian comments scraped from mobile phone reviews site.
 
 Instructions to begin:
 
-If you want to follow with docker use this instruction:
+If you want to follow with docker use this part of instruction:
 
 1. Download docker image: https://hub.docker.com/r/andreybondarb/bert-sentiment
 

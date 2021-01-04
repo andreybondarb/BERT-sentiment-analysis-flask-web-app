@@ -25,11 +25,11 @@ pip install -r '/requirements.txt'
 
 4. Follow the link http://0.0.0.0:4566/ in your browser and try the app.
 
-This app was tested on python 3.7.6, 3.6, with libraries versions:
+##### This app was tested on python 3.7.6, 3.6, with libraries versions:
 
-transformers==3.0.2
+##### transformers==3.0.2
 
-torch==1.6.0
+##### torch==1.6.0
 
-flask==1.1.1
+##### flask==1.1.1
 

@@ -2,9 +2,9 @@
 
 ##### This model was fine-tuned on Russian 'rubert-base-cased' model with Russian comments scraped from mobile phone reviews site.
 
-Instructions to begin:
+##### Instructions to begin:
 
-If you want to follow with docker use this part of instruction:
+###### If you want to follow with docker use this part of instruction:
 
 1. Download docker image: https://hub.docker.com/r/andreybondarb/bert-sentiment
 
@@ -13,7 +13,7 @@ sudo docker run --name bert_model -p 4566:4566 --rm andreybondarb/bert-sentiment
 
 3. Follow the link http://0.0.0.0:4566/ in your browser and try the app.
 
-If you want to start the app manually you will need to follow this instruction:
+###### If you want to start the app manually you will need to follow this instruction:
 
 1. If you dont have PyTorch (700 MB~) and transformers libraries you will need to install them - This command in your CLI can be used:
 

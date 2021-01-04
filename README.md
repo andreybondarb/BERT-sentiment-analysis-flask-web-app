@@ -1,4 +1,4 @@
-BERT sentiment analysis flask web app. This model was fine-tuned on Russian 'rubert-base-cased' model with Russian comments scraped from mobile phone reviews site.
+# BERT sentiment analysis flask web app. This model was fine-tuned on Russian 'rubert-base-cased' model with Russian comments scraped from mobile phone reviews site.
 
 Instructions to begin:
 

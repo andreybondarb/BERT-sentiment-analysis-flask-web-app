@@ -9,6 +9,7 @@
 1. Download docker image: https://hub.docker.com/r/andreybondarb/bert-sentiment
 
 2. Run in your console: 
+
 `sudo docker run --name bert_model -p 4566:4566 --rm andreybondarb/bert-sentiment`
 
 3. Follow the link http://0.0.0.0:4566/ in your browser and try the app.

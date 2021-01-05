@@ -9,7 +9,7 @@
 1. Download docker image: https://hub.docker.com/r/andreybondarb/bert-sentiment
 
 2. Run in your console: 
-sudo docker run --name bert_model -p 4566:4566 --rm andreybondarb/bert-sentiment
+`sudo docker run --name bert_model -p 4566:4566 --rm andreybondarb/bert-sentiment`
 
 3. Follow the link http://0.0.0.0:4566/ in your browser and try the app.
 
@@ -17,7 +17,7 @@ sudo docker run --name bert_model -p 4566:4566 --rm andreybondarb/bert-sentiment
 
 1. If you dont have PyTorch (700 MB~) and transformers libraries you will need to install them - This command in your CLI can be used:
 
-pip install -r '/requirements.txt'
+`pip install -r '/requirements.txt'`
 
 2. Download model weights from https://yadi.sk/d/EmtQcZKfGxPMdw and put 'bert_model_Russian_01.pt' (680 MB) file into the folder where 'main.py' file locates.
 

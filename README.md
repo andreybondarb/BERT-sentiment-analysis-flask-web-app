@@ -1,6 +1,6 @@
 ### BERT sentiment analysis flask web app. 
 
-##### The 'rubert-base-cased' model was used to fine-tune it on russian comments scraped from mobile phone reviews site.
+##### The 'rubert-base-cased' model was used for fine-tuning with russian comments scraped from mobile phone reviews site.
 
 ##### Instructions to begin:
 

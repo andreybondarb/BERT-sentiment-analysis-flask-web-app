@@ -2,8 +2,6 @@
 
 ##### The 'rubert-base-cased' model was used for fine-tuning with russian comments scraped from mobile phone reviews site.
 
-You can follow this link to try it - http://77.223.97.234:1111
-
 ##### Instructions to begin:
 
 ##### If you want to follow with docker use this part of instruction:

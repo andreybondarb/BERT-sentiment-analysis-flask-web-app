@@ -2,6 +2,8 @@
 
 ##### The 'rubert-base-cased' model was used for fine-tuning with russian comments scraped from mobile phone reviews site.
 
+`You can follow this link to try it - https://4eca02489f28.ngrok.io/`
+
 ##### Instructions to begin:
 
 ##### If you want to follow with docker use this part of instruction:
